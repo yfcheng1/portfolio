@@ -18,14 +18,32 @@ const About = () => {
           />
         </h1>
         <p className="about-text">
-          I discovered my passion for software development during 2020. One of the reasons why I love being a software engineer is that
-          coding can bring creative ideas come through. I also enjoy working with the latest technologies on challenging and diverse projects.
+          I discovered my passion for software development since 2020. <br></br>
+          I enjoy working with the latest technologies on challenging and diverse projects.
+          I also love learning new tech stacks and solving challenging problems.
+          I would love to work on a team with brilliant engineers where we can learn from each other.
         </p>
         <p className="about-text">
-          I am a persistent person. I always committed and follow through my tasks until they are fully complete.
-          I would love to work on a team with brilliant engineers where we can learn from each other.
+          When I am not coding, I love snuggling with my cat, playing tennis and traveling with friends.
 
         </p>
+        <h5 class="block-title">Technical Skills</h5>
+        <div class="tech-block">
+          <ul class="tech-skills">
+            <li class="skill">JavaScript</li>
+            <li class="skill">MySQL</li>
+            <li class="skill">HTML5 & CSS3</li>
+            <li class="skill">PostgreSQL</li>
+            <li class="skill">React</li>
+            <li class="skill">Redis</li>
+            <li class="skill">Node.js</li>
+            <li class="skill">Express</li>
+            <li class="skill">Docker</li>
+            <li class="skill">Jest</li>
+            <li class="skill">MongoDB</li>
+            <li class="skill">Golang</li>
+          </ul>
+        </div>
       </div>
       <div className="stage-cube-cont">
         <div className="cubespinner">
