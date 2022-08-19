@@ -5,7 +5,6 @@ import AnimatedLetters from './AnimatedLetters'
 
 const Home = () => {
   const [letterClass] = useState('text-animate')
-
   const nameArray = ['Y', 'u', 'f', 'a', 'n', 'g', ' ', 'C', 'h', 'e', 'n', 'g'];
 
   return (
@@ -25,7 +24,7 @@ const Home = () => {
             />
             <br />
           </h1>
-          <h2 className="home-h2">Full Stack Software Developer</h2>
+          <h2 className="home-h2">I develop apps and solve problems</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
