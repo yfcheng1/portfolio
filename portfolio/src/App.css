@@ -309,5 +309,73 @@ nav a :hover {
   left: -20px;
 }
 
- /* Contact */
+ /* Project */
 
+ .project-info div {
+  margin: 5px 0;
+}
+
+.project-img {
+  width: 100%;
+  max-width: 560px;
+  border: 1px solid #9AAFD9;
+  padding: 8px;
+  position: relative;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.project-info {
+  width: 90%;
+  /* max-width: 500px; */
+  /* align-items: center; */
+  position: relative;
+  /* margin-top: 10px; */
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.project-website,
+.project-tech {
+  margin: 0 10px 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+  padding: 0px;
+  list-style: none;
+}
+
+.project-title {
+  color: #ccd6f6;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px 0px 10px;
+  font-weight: 600;
+  line-height: 1.1;
+  text-decoration: none;
+}
+
+.project-desc {
+  margin: 10px;
+  line-height: 1.5;
+  background-color: #ccd6f6;
+  text-align: left;
+  padding: 20px;
+  box-shadow: 0px 10px 20px -15px #7891C2;
+}
+
+.project-desc em {
+  font-size: 0.9em;
+}
+
+.project-tech {
+  margin: 20px;
+  font-size: 0.85em;
+  display: inline-block;
+  line-height: 1.5;
+  color: #ccd6f6;
+}

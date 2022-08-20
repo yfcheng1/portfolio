@@ -5,6 +5,7 @@ import Layout from './components/Layout.js';
 import Home from './components/Home.js';
 import About from './components/About.js';
 import Contact from './components/Contact.js';
+import Project from './components/Project.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route index element={< Home />}></Route>
           <Route path="/portfolio/about" element={< About />}></Route>
           <Route path="/portfolio/contact" element={< Contact />}></Route>
+          <Route path="/portfolio/project" element={< Project />}></Route>
         </Route>
       </Routes>
     </div>
