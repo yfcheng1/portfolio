@@ -312,10 +312,11 @@ nav a :hover {
  /* Project */
 
  .project-info div {
-  margin: 5px 0;
+  margin: 15px 0;
 }
 
 .project-img {
+  margin-top: 20px;
   width: 100%;
   max-width: 560px;
   border: 1px solid #9AAFD9;
@@ -327,26 +328,13 @@ nav a :hover {
 
 .project-info {
   width: 90%;
-  /* max-width: 500px; */
-  /* align-items: center; */
-  position: relative;
-  /* margin-top: 10px; */
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-.project-website,
-.project-tech {
-  margin: 0 10px 0 10px;
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  z-index: 2;
-  padding: 0px;
-  list-style: none;
+  max-width: 500px;
+  top: 0;
+  padding-top: 18%;
+  margin-left: 0;
+  position: absolute;
+  right: 5%;
+  overflow: hidden;
 }
 
 .project-title {
@@ -357,6 +345,24 @@ nav a :hover {
   font-weight: 600;
   line-height: 1.1;
   text-decoration: none;
+  display: inline-block;
+}
+
+.project-link-block {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin: 0px 0px 10px;
+}
+
+.project-website,
+.project-tech {
+  font-size: 22px;
+  margin: 0 10px 0 10px;
+  position: relative;
+  z-index: 2;
+  padding: 0px;
+  list-style: none;
 }
 
 .project-desc {
