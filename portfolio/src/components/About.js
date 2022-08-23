@@ -27,21 +27,21 @@ const About = () => {
           When I am not coding, I love snuggling with my cat, playing tennis and traveling with friends.
 
         </p>
-        <h5 class="block-title">Technical Skills</h5>
-        <div class="tech-block">
-          <ul class="tech-skills">
-            <li class="skill">JavaScript</li>
-            <li class="skill">MySQL</li>
-            <li class="skill">HTML5 & CSS3</li>
-            <li class="skill">PostgreSQL</li>
-            <li class="skill">React</li>
-            <li class="skill">Redis</li>
-            <li class="skill">Node.js</li>
-            <li class="skill">Express</li>
-            <li class="skill">Docker</li>
-            <li class="skill">Jest</li>
-            <li class="skill">MongoDB</li>
-            <li class="skill">Golang</li>
+        <h5 className="block-title">Technical Skills</h5>
+        <div className="tech-block">
+          <ul className="tech-skills">
+            <li className="skill">JavaScript</li>
+            <li className="skill">MySQL</li>
+            <li className="skill">HTML5 & CSS3</li>
+            <li className="skill">PostgreSQL</li>
+            <li className="skill">React</li>
+            <li className="skill">MongoDB</li>
+            <li className="skill">Node.js</li>
+            <li className="skill">Redis</li>
+            <li className="skill">Express</li>
+            <li className="skill">Docker</li>
+            <li className="skill">Golang</li>
+            <li className="skill">Jest</li>
           </ul>
         </div>
       </div>
