@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import Loader from 'react-loaders';
 import AnimatedLetters from './AnimatedLetters';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faNode, faDocker, faGolang, faJsSquare, faReact, faHtml5} from '@fortawesome/free-brands-svg-icons'
 
 const About = () => {
   const [letterClass] = useState('text-animate')
@@ -43,28 +41,6 @@ const About = () => {
             <li className="skill">Golang</li>
             <li className="skill">Jest</li>
           </ul>
-        </div>
-      </div>
-      <div className="stage-cube-cont">
-        <div className="cubespinner">
-          <div className="face1">
-            <FontAwesomeIcon icon={faHtml5} color="#EC4D28" />
-          </div>
-          <div className="face2">
-            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-          </div>
-          <div className="face3">
-            <FontAwesomeIcon icon={faDocker} color="#28A4D9" />
-          </div>
-          <div className="face4">
-            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-          </div>
-          <div className="face5">
-            <FontAwesomeIcon icon={faGolang} color="#007d9c" />
-          </div>
-          <div className="face6">
-            <FontAwesomeIcon icon={faNode} color="green" />
-          </div>
         </div>
       </div>
       <Loader type="pacman" />

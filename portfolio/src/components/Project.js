@@ -3,7 +3,7 @@ import Loader from 'react-loaders';
 import AnimatedLetters from './AnimatedLetters';
 import payment1 from '../assets/payment1.gif';
 import SDC from '../assets/SDC.png';
-import atelier from '../assets/atelier.gif';
+import qa from '../assets/q&a.gif';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
@@ -86,7 +86,7 @@ const Project = () => {
           <img className="project-img" src={SDC} alt="screenshot of Orchid API project"/>
         </div>
         <div className="project-container">
-          <img className="project-img" src={atelier} alt="screenshot of Orchid API project"/>
+          <img className="project-img" src={qa} alt="screenshot of Orchid API project"/>
           <div className="project-info">
             <div className="project-link-block">
               <a
