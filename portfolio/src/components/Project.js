@@ -6,7 +6,7 @@ import SDC from '../assets/SDC.png';
 import qa from '../assets/q&a.gif';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkSquare } from '@fortawesome/free-solid-svg-icons';
 
 const Project = () => {
   const [letterClass] = useState('text-animate');
@@ -37,7 +37,7 @@ const Project = () => {
                 className="project-website"
                 href="https://github.com/rpp33-boc-arctic/splitsy#main-features"
                 aria-label="link to live page">
-                <FontAwesomeIcon icon={faCode} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faExternalLinkSquare} color="#4d4d4e" />
               </a>
             </div>
             <a className="project-title" href="https://github.com/rpp33-boc-arctic/splitsy" rel="noopener noreferrer" target="_blank">Splitsy</a>
@@ -68,7 +68,7 @@ const Project = () => {
                 className="project-website"
                 href="https://github.com/rpp33-sdc-orchid/products#api-end-points"
                 aria-label="link to live page">
-                <FontAwesomeIcon icon={faCode} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faExternalLinkSquare} color="#4d4d4e" />
               </a>
             </div>
             <a className="project-title" href="https://github.com/rpp33-sdc-orchid/products" rel="noopener noreferrer" target="_blank">Orchid API</a>
@@ -99,7 +99,7 @@ const Project = () => {
                 className="project-website"
                 href="https://github.com/rpp33-fec-yellow/project-atelier#atelier"
                 aria-label="link to live page">
-                <FontAwesomeIcon icon={faCode} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faExternalLinkSquare} color="#4d4d4e" />
               </a>
             </div>
             <a className="project-title" href="https://github.com/rpp33-fec-yellow/project-atelier" rel="noopener noreferrer" target="_blank">Atelier</a>

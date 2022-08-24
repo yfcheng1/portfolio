@@ -378,7 +378,7 @@ nav a :hover {
 
 .project-website,
 .project-tech {
-  font-size: 22px;
+  font-size: 24px;
   margin: 0 10px 0 10px;
   position: relative;
   z-index: 2;
@@ -405,7 +405,7 @@ nav a :hover {
 
 .project-tech {
   margin: 20px;
-  font-size: 0.85em;
+  font-size: 0.9em;
   display: inline-block;
   line-height: 1.5;
   color: #ccd6f6;
