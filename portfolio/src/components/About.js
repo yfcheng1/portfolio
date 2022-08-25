@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Loader from 'react-loaders';
 import AnimatedLetters from './AnimatedLetters';
+import profile from '../assets/YC_PC1.JPG';
 
 const About = () => {
   const [letterClass] = useState('text-animate')
@@ -43,6 +44,7 @@ const About = () => {
           </ul>
         </div>
       </div>
+      <img className="about-img" src={profile} alt="About"></img>
       <Loader type="pacman" />
     </div>
   )

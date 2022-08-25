@@ -16,7 +16,7 @@ const Contact = () => {
               idx={15}
             />
           </h1>
-          <p className="about-text">
+          <p className="contact-text">
             Currently I am looking for opportunities in software engineering. I look forward to hearing from you and I will get back to you soon!
           </p>
           <a className="flat-button" href="mailto:yufang.cheng1@gmail.com">SAY HI</a>
