@@ -27,35 +27,33 @@ const Home = () => {
             <br />
           </h1>
           <h2 className="home-h2">I develop apps and solve problems.</h2>
-          <Link to="/contact" className="flat-button">
+          <Link to="/portfolio/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
         <div className="stage-cube-cont">
-        <div className="cubespinner">
-          <div className="face1">
-            <FontAwesomeIcon icon={faHtml5} color="#EC4D28" />
-          </div>
-          <div className="face2">
-            <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-          </div>
-          <div className="face3">
-            <FontAwesomeIcon icon={faDocker} color="#28A4D9" />
-          </div>
-          <div className="face4">
-            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-          </div>
-          <div className="face5">
-            <FontAwesomeIcon icon={faGolang} color="#007d9c" />
-          </div>
-          <div className="face6">
-            <FontAwesomeIcon icon={faNode} color="green" />
+          <div className="cubespinner">
+            <div className="face1">
+              <FontAwesomeIcon icon={faHtml5} color="#EC4D28" />
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={faDocker} color="#28A4D9" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={faGolang} color="#007d9c" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faNode} color="green" />
+            </div>
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
-      </div>
-
       <Loader type="pacman" />
     </>
   )
